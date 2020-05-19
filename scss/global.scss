@@ -1,0 +1,95 @@
+$text-color:#4287f5;
+$titleColor:#4287f5;
+@media print {
+    .myDivToPrint {
+        background-color: white;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 15px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+  }
+  #functionDiv{
+    width: 100%;
+    white-space: nowrap;
+    margin-top: 1%;
+    margin-left: 30%;
+  
+  }
+  .function_button{
+    background-color: whitesmoke;
+    color: $titleColor;
+    cursor:pointer;
+    padding-left: 0%;
+    font-family: 'Agency FB', arial;
+    border: 1px solid $titleColor;
+    border-radius: 2px;
+    font-size: 1.5vw;
+    width: auto;
+    &:hover{
+      background-color: $titleColor;
+      color: whitesmoke;
+      border-color: whitesmoke;
+    }
+  }
+#menu{
+    width: 50%;
+    margin-left: 5%;
+    list-style: none;
+    display: inline-block;
+}
+.menu{
+    background-color: whitesmoke;
+    border: 1px solid transparent;
+    border-radius: 10%;
+    float: left;
+    position: relative;
+    padding-top: 5px;
+    text-decoration: none;
+    font-size: 1.5vw;
+    text-align: center;
+    width: auto;
+    margin-left: 2%;
+    padding: 1%;
+    text-transform: uppercase;
+    color: $text-color;
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        height: 3px;
+        width: 0;
+        background: transparent;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 3px;
+        background: $titleColor;
+        transition: transform .5s ease;
+        transform: scaleX(0);
+        
+    }
+    &:hover:after {
+        transform: scaleX(1);
+      }
+    
+}
+#social_media{
+    margin-left: 1%;
+    width: 40%;
+    height: auto;
+    background-color: inherit;
+    display: inline-block;
+}
+.social_media_pics{
+  margin-left:auto;
+  width: 5%;
+  height: auto;
+}

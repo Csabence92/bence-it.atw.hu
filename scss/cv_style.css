@@ -1,0 +1,113 @@
+@import url(../scss/agency_fb_fonts.css);
+#tapsztalat_table {
+  margin-left: 10%;
+  width: 30%;
+  font-family: 'Agency FB', arial;
+  font-size: 1vw;
+}
+
+#tapsztalat_table tr {
+  border-bottom: 1px solid #4287f5;
+}
+
+body {
+  width: 100%;
+  background-color: #6c706d;
+  font-family: 'Agency FB', arial;
+}
+
+#profile_img {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  margin-left: 1%;
+  -webkit-box-flex: left;
+      -ms-flex: left;
+          flex: left;
+}
+
+#content {
+  margin: 1%;
+  background-color: whitesmoke;
+  overflow: scroll;
+}
+
+#title {
+  font-size: 3vw;
+  display: block;
+  color: #4287f5;
+  text-decoration: underline;
+}
+
+.titleClass {
+  margin-left: 25%;
+  width: 50%;
+  display: inline-block;
+}
+
+#subtitle {
+  display: block;
+  float: left;
+  font-size: 1.5vw;
+  font-style: italic;
+  width: 50%;
+}
+
+.profile_head {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.info_img {
+  border-radius: 50%;
+  width: 30%;
+  height: auto;
+  margin-right: 1%;
+}
+
+.info_icon {
+  width: 20%;
+}
+
+.info_text {
+  text-decoration: none;
+  font-size: 1.5vw;
+}
+
+#contact_table {
+  -webkit-box-flex: right;
+      -ms-flex: right;
+          flex: right;
+  font-size: 1vw;
+  margin-left: 50%;
+}
+
+#contact_table tr {
+  height: 5px;
+}
+
+#paragDiv {
+  width: 100%;
+  display: block;
+  margin-left: 10%;
+  background-color: whitesmoke;
+}
+
+.parag1 {
+  width: 50%;
+  color: #4287f5;
+  border-bottom: 1px solid #4287f5;
+  margin-left: 5%;
+  font-size: 2vw;
+  font-style: normal;
+}
+
+.ul {
+  margin-left: 10%;
+  list-style-type: circle;
+  display: list-item;
+  font-size: 1vw;
+}
+/*# sourceMappingURL=cv_style.css.map */
