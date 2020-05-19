@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Írj nekem</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Bence Csatlós">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script language="javascript" type="text/javascript" src="js/j_function.js"></script>
+        <link rel="stylesheet" type="text/css" href="scss/mail-stlye.css"/>
+        <link rel="stylesheet" type="text/css" href="scss/global.css"/>
+        <link rel="social_media"href="/web/tweet-button">
+        <link rel = "icon" href =  "img/icon.png" type = "image/x-icon"> 
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/hu_HU/sdk.js#xfbml=1&version=v7.0&appId=105947142784034&autoLogAppEvents=1"></script>
+        <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+    </head>
+    <body>
+        <div id="social_media">
+            <div class="fb-share-button" data-href="http://bence-it.atw.hu" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fbence-it.atw.hu%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Megosztás</a></div>
+            <script type="IN/Share" data-url="http://bence-it.atw.hu"></script>
+            <a class="twitter-share-button"href="https://twitter.com/intent/tweet?text=Csatlós Bence CV - http://bence-it.atw.hu"data-size="large"><img src="img/twitter.png" class="social_media_pics" alt="Tweet"/></a>
+        </div>
+        <div id="menu">
+            <a class="menu" href="index.html">CV</a>
+            <a class="menu" href="motivacio.html">Motivációs levél</a>
+            <a class="menu" href="write_me.html">Írjon nekem</a>
+        </div>
+        <div id="content">
+            <h1 id="title">Írjon nekem!</h1>
+            <p class="info">Vegye fel velem a kapcsolatot e-mail keresztül. Használja a honalpon található felületet, vagy</p>
+            <p class = "info">Küldjön levelet: <b>bence.csatlos.92@gmail.com</b> e-mail címre</p>
+            <form action="mail.php" method="POST">
+                <input class="input" type="email" id=from name="from" placeholder="E-mail címed"/>
+                <input class="input" type="text" id="name" name="name" placeholder="Neved"/>
+                <textarea class = "input" id="message" name="message" placeholder="Üzenet"></textarea>
+                <input class = "input" type="submit" id="send_mail" name="send_mail" value="Küldés">
+            </form>
+        </div>
+    </body>
+</html>
